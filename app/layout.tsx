@@ -9,10 +9,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         {/* ✅ SEO/Nytro Script */}
-        <script
-          src="https://cdn.nytroseo.com/YOUR-SITE-ID.js"
-          async
-        ></script>
+       <script src="https://plugin.nytsys.com/api/site/162195d5-6196-45ad-849e-e9ea6e2b8331/nytsys.min.js" ></script>
       </head>
       <body>{children}</body>
     </html>
