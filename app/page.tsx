@@ -6,11 +6,11 @@ export default function Home() {
         Welcome to our health platform! Learn how vitamins, exercise, and proper
         nutrition can naturally strengthen your immune system.
       </p>
-      <img
+      {/* <img
         src="https://via.placeholder.com/600x300?text=Immunity+Health"
         alt="Healthy living"
         style={{ maxWidth: "100%", marginTop: "1rem" }}
-      />
+      /> */}
     </div>
   );
 }
